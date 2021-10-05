@@ -1,11 +1,11 @@
 import Link from "next/link";
+import {MainLayout} from "../components/MainLayout";
 
 const Component = () => {
     return (
-        <div>
+        <MainLayout title="Home">
             <div>Hello</div>
-            <p><Link href={"/news"}><a>News</a></Link></p>
-        </div>
+        </MainLayout>
     )
 }
 
